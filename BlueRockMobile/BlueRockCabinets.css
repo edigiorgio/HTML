@@ -1,0 +1,42 @@
+table{
+    background: lightgrey;
+/*    border: 1px solid grey;*/
+    border-collapse: separate;
+    font-size: 12pt;
+    width: 100%;
+    padding: 3px;
+    table-layout: fixed;
+    border-spacing: 3px 3px;
+}
+th,td{
+    background: lightgrey;
+    border: 1px solid silver;
+    padding: 3px;
+    vertical-align: center;
+    align-items: center;
+    width: 50%;
+}
+th{
+    border: 1px solid silver;
+    vertical-align: top;
+    text-align: left;
+    padding: 3px;
+}
+td{
+    width: 90%;
+    font-family: helvitica;
+    padding: 3px;
+    text-align: left;
+    vertical-align: top;
+    max-width: 90%;
+}
+td img{
+    min-width: 100%;
+    border: 2px solid black;
+}
+img{
+    width: 100%;
+}
+td center img{
+    width: 75%;
+}
